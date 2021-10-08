@@ -14,8 +14,8 @@ import com.talibi.emsAng.repositories.EmployeeRepository;
 @RestController
 @RequestMapping("/api/v1/")
 public class EmployeeControler {
-	@Autowired
-	private EmployeeRepository employeeRepository;
+	
+	@Autowired private EmployeeRepository employeeRepository;
 	
 	@GetMapping("/employees")
 	public List<Employee> getAllEmployees(){
