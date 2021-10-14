@@ -15,7 +15,7 @@ export class CreateEmployeeComponent implements OnInit {
   }
 
   onSubmit(){
-
+    console.log(this.employee);
   }
 
 }
