@@ -22,5 +22,4 @@ export class EmployeeDetailsComponent implements OnInit {
       this.employee = data;
     });
   }
-
 }
